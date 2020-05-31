@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+div.board {
+    width: 30vw;
+    border: 4px solid black;
+    margin: 50px auto;
+
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+span {
+    width: 50%;
+    float: left;
+    background-color: white;
+    height: 15vw;
+
+
+}
+
+span:nth-child(2),
+span:nth-child(3) {
+    background-color: darkblue;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
